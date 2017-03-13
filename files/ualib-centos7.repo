@@ -1,0 +1,37 @@
+#
+#CENTOS 7
+#
+
+#
+# Repos located on 'repo', mirrored from a CentOS public mirror
+#
+
+[base]
+name=CentOS-$releasever - Base
+baseurl=http://repo.library.ualberta.ca/centos/$releasever/os/$basearch/
+gpgcheck=0
+enabled=1
+
+#released updates
+[updates]
+name=CentOS-$releasever - Updates
+baseurl=http://repo.library.ualberta.ca/centos/$releasever/updates/$basearch/
+gpgcheck=0
+enabled=1
+
+
+#additional packages that may be useful
+[extras]
+name=CentOS-$releasever - Extras
+baseurl=http://repo.library.ualberta.ca/centos/$releasever/extras/$basearch/
+gpgcheck=0
+enabled=1
+
+
+#additional packages that extend functionality of existing packages
+[centosplus]
+name=CentOS-$releasever - Plus
+baseurl=http://repo.library.ualberta.ca/centos/$releasever/centosplus/$basearch/
+gpgcheck=0
+enabled=1
+

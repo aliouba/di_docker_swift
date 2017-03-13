@@ -1,0 +1,10 @@
+#
+# ualib-custom7
+#
+
+[ualib-custom7]
+name=Custom packages for RHEL and CentOS 7 - $basearch
+baseurl=http://repo.library.ualberta.ca/custom/rhel/7/x86_64/
+failovermethod=priority
+enabled=1
+gpgcheck=0
