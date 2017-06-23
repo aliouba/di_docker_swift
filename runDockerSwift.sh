@@ -10,7 +10,7 @@ if [[ -z "$LOCAL_SWIFT_STORAGE" ]]; then
     exit 1
 fi
 
-export IMAGE=ualibraries/swift_dev
+export IMAGE=ualbertalib/swift_dev
 if [[ "$LOCAL_SWIFT_STORAGE" = "NONE" ]]; then
     docker run -d -p 8080:8080 $IMAGE
 else

@@ -1,13 +1,13 @@
-# Getting started with ualibraries/swift_dev docker image
+# Getting started with ualbertalib/swift_dev docker image
 
 
 ## Install docker image
 
-You need to download ualibraries/swift_dev docker image from docker hub
+You need to download ualbertalib/swift_dev docker image from docker hub
 (Assuming that you have already have docker installed and running)
 
 ```shell
-docker pull ualibraries/swift_dev
+docker pull ualbertalib/swift_dev
 ```
 
 Create directory where all swift node files will be stored.
@@ -41,7 +41,6 @@ Then run
 ```shell
 docker stop <container_name>
 ```
-
 
 
 ## Swift python client
