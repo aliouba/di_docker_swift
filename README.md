@@ -1,21 +1,46 @@
-# Getting started with ualbertalib/swift_dev docker image
+# Getting started with [ualbertalib/swift_dev](https://github.com/ualbertalib/di_docker_swift.git) docker image
 
 
-## Install docker image
+This image that implements Swift - highly available, distributed, consistent object store.
+This image was created for development purposes to quickly instantiate running instance of swift object store.
+
+## Prerequisites:
+
+  1. [Install Docker](https://docs.docker.com/engine/installation/)
+
+
+##  Getting swift_dev image
 
 You need to download ualbertalib/swift_dev docker image from docker hub
-(Assuming that you have already have docker installed and running)
 
 ```shell
 docker pull ualbertalib/swift_dev
 ```
+
+Alternatively you can build swift image locally
+
+  1. Clone current project:
+     ```shell
+     git clone https://github.com/ualbertalib/di_docker_swift.git
+     ```
+  2. Go to the directory where you cloned the project
+     ```shell
+     docker build . -t ualbertalib/swift_dev
+     ```
+
+## Maintenance ##
+
+University of Alberta maintains a Docker Hub repository at https://hub.docker.com/r/ualibraries.
+Docker image is registered with Docker Hub: [ualbertalib/swift_dev](https://github.com/ualbertalib/di_docker_swift.git)
+
+## Using swift_dev image
 
 Create directory where all swift node files will be stored.
 ```shell
 mkdir ~/.swift
 ```
 
-Set environemnt variable to point to that directory
+Set environment variable to point to that directory
 
 ```shell
 export LOCAL_SWIFT_STORAGE=~/.swift
