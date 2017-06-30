@@ -11,5 +11,6 @@ script:
     - docker build -t "$image" .
     - ~/official-images/test/run.sh "$image"
 
+
 after_script:
     - docker images
