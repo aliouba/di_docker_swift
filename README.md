@@ -1,5 +1,11 @@
 # Getting started with [ualbertalib/swift_dev](https://github.com/ualbertalib/di_docker_swift.git) docker image
 
+[![](https://images.microbadger.com/badges/image/ualbertalib/swift_dev.svg)](https://microbadger.com/images/ualbertalib/swift_dev "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/ualbertalib/swift_dev.svg)](https://microbadger.com/images/ualbertalib/swift_dev "Get your own version badge on microbadger.com")
+[![Build Status](https://travis-ci.org/ualbertalib/di_docker_swift.svg?branch=master)](https://travis-ci.org/ualbertalib/di_docker_swift)
+
+
+https://travis-ci.org/ualbertalib/di_docker_images.svg?branch=master
 
 This image that implements Swift - highly available, distributed, consistent object store.
 This image was created for development purposes to quickly instantiate running instance of swift object store.
